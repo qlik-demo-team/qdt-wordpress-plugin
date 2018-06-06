@@ -1,6 +1,6 @@
 # Qdt-components Wordpress Plugin
 
-This is a simple plugin that uses Qdt-components to connect to your Qlik Sense server and create a mashup by getting the object with a shortcode inside a post or page within the admin panel.
+This is a simple plugin that uses [Qdt-components](https://github.com/qlik-demo-team/qdt-components "Qdt-components") to connect to your Qlik Sense server and create a mashup by getting the object with a shortcode inside a post or page within the admin panel.
 
 
 ### Installation ###
