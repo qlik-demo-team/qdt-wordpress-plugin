@@ -1,0 +1,33 @@
+{
+  "name": "qdt-wordpress-plugin",
+  "version": "0.0.1",
+  "description": "Wordpress Plugin that uses qdt-components to connect to Qlik Sense",
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy": "pscp ./node_modules/qdt-components/dist/ ./scripts/qdt-components/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qlik-demo-team/qdt-wordpress-plugin.git"
+  },
+  "keywords": [
+    "Qlik",
+    "Sense",
+    "qdt-components",
+    "Capability",
+    "Api",
+    "Engine",
+    "Api"
+  ],
+  "author": "yianni.ververis@qlik.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qlik-demo-team/qdt-wordpress-plugin/issues"
+  },
+  "homepage": "https://github.com/qlik-demo-team/qdt-wordpress-plugin#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "qdt-components": "^1.1.52"
+  }
+}
